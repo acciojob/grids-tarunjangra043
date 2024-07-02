@@ -9,37 +9,36 @@
 	height: 200px;
 }
 
-.col1, .col2, .col3, .col4, .col5, .col6 {
+.r1c1, .r1c2, .r2c1, .r2c2, .r3c1, .r3c2 {
 	border: 2px dotted rgb(38, 38, 43);
 }
 
-.col1 {
+.r1c1 {
 	background-color: teal;
 }
 
-.col2 {
+.r1c2 {
 	background-color: thistle;
 }
 
-.col3 {
+.r2c1 {
 	background-color: tomato;
 }
 
-.col4 {
+.r2c2 {
 	background-color: turquoise;
 }
 
-.col5 {
+.r3c1 {
 	background-color: violet;
 }
 
-.col6 {
+.r3c2 {
 	background-color: yellowgreen;
 }
 
-/* Ensure equal distribution for small screens */
 @media (max-width: 767.98px) {
-	.col1, .col2, .col3, .col4, .col5, .col6 {
+	.r1c1, .r1c2, .r2c1, .r2c2, .r3c1, .r3c2 {
 		flex: 1 1 50%;
 		max-width: 50%;
 	}
